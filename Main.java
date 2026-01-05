@@ -213,7 +213,7 @@ public class Main {
         {
             snackQuantity1=new BigInteger("0");
         }
-        ViewerInterface v2=new Viewer(numberOfSeats2.intValue(),screen2,snack2,snackQuantity.intValue());
+        ViewerInterface v2=new Viewer(numberOfSeats2.intValue(),screen2,snack2,snackQuantity1.intValue());
 
     if(v1.getScreenType().equals("GOLD"))
     {
@@ -300,3 +300,4 @@ public class Main {
         }
     }
     }
+
